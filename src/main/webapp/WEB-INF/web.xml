@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>mailQuizReport</servlet-name>
+  	<display-name>mailQuizReport</display-name>
+  	<description></description>
+  	<servlet-class>com.quiz.mailQuizReport</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>testing</servlet-name>
+  	<display-name>testing</display-name>
+  	<description></description>
+  	<servlet-class>com.quiz.testing</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>decode_encode</servlet-name>
+  	<display-name>decode_encode</display-name>
+  	<description></description>
+  	<servlet-class>com.quiz.decode_encode</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>upload</servlet-name>
+  	<display-name>upload</display-name>
+  	<description></description>
+  	<servlet-class>com.quiz.upload</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>gotoquiz</servlet-name>
+  	<display-name>gotoquiz</display-name>
+  	<description></description>
+  	<servlet-class>com.quiz.gotoquiz</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>mailQuizReport</servlet-name>
+  	<url-pattern>/mailQuizReport</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>testing</servlet-name>
+  	<url-pattern>/testing</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>decode_encode</servlet-name>
+  	<url-pattern>/decode_encode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>upload</servlet-name>
+  	<url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>gotoquiz</servlet-name>
+  	<url-pattern>/gotoquiz</url-pattern>
+  </servlet-mapping>
+</web-app>
